@@ -1,0 +1,125 @@
+/* 1. GRUNDINSTÄLLNINGAR */
+
+/* Bestämmer grundtypsnitt och bakgrundsfärg för hela webbsidan */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(247, 243, 234);
+}
+
+/* Bestämmer typsnittet för vanliga textstycken */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 2. LAYOUT OCH PLACERING */
+
+/* Bestämmer bredden på delar av sidans layout */
+.horistonell-3 {
+    width: 40vw;
+}
+
+/* Använder Flexbox för att placera innehållet i huvudmenyn på en rad */
+
+
+.huvudmeny {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Bestämmer bredd och höjd på vänsterdelen på startsidan */
+.vänster {
+    width: 40vw;
+    height: 50vw;
+}
+
+/* Organiserar innehållet i högerdelen vertikalt och centrerar det */
+.höger {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Bestämmer marginaler och layout för innehållet på stadssidorna */
+.margin-sides {
+    margin-right: 5vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Centrerar navigeringslänkarna i huvudmenyn */
+.horistonell-3.huvudmeny {
+    justify-content: center;
+}
+
+
+/* 3. TEXT, RUBRIKER OCH LÄNKAR */
+/* Bestämmer marginalerna runt texten på startsidan */
+.p-margin-sides {
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+/* Bestämmer utseendet på länkarna i navigeringsmenyn */
+a {
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: darkgreen;
+}
+
+/* Bestämmer typsnitt, färg och storlek på webbplatsens namn */
+.Mellanlandning {
+    font-family: Georgia, serif;
+    color: darkgreen;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Bestämmer färgen på huvudrubriker och underrubriker */
+h1, h2 {
+    color: darkgreen;
+}
+
+/* Begränsar bredden på textstycken på stadssidorna */
+.margin-sides p {
+    max-width: 750px;
+}
+
+/* 4. BILDER */
+
+/* Bestämmer storleken på bilderna på startsidan */
+.liten-bild-startsida {
+    width: 15vw;
+    height: 15vw;
+}
+
+/* Bestämmer storleken på bilderna på stadssidorna */
+.stad-bild {
+    width: 20vw;
+    height: 20vw;
+}
+
+/* Ger bilderna i startsidans bildsektion avstånd till höger */
+.botten img {
+    margin-right: 14px;
+}
+
+
+/*  5. MARGINALER OCH AVSTÅND */
+/* Bestämmer avståndet ovanför bildsektionen på startsidan */
+.botten {
+    margin-top: 4vh;
+}
+
+/* Bestämmer avstånd ovanför och under bildsektionen på stadssidorna */
+.equal-margin-top-bottom {
+    margin-top: 20vh;
+    margin-bottom: auto;
+}
+
+/* Ger extra marginal till höger */
+.margin-right {
+    margin-right: 7vw;
+}

@@ -1,0 +1,86 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+      background-color: rgb(247, 243, 234);
+
+}
+p{
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.horistonell-3{
+    width: 40vw;
+       
+}
+.huvudmeny{
+    display: flex;
+    flex-direction: row;
+   
+}
+.vänster{
+    width:40vw;
+    height:50vw;
+}
+.höger{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.p-margin-sides{
+      margin-right: 10vw;
+  margin-left: 10vw;
+  
+}
+.liten-bild-startsida{
+
+width:15vw;
+    height:15vw;
+}
+.botten{
+    margin-top:4vh;
+}
+a{
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+     color: darkgreen;
+}
+.margin-sides{
+    margin-right: 5vw;
+    margin-left: 5vw;
+      display: flex;
+       flex-direction: column;
+}
+.equal-margin-top-bottom{
+    margin-top:20vh;
+    margin-bottom: auto;
+    
+
+}
+.margin-right{
+    margin-right: 7vw;
+}
+.Mellanlandning{
+      font-family: Georgia, serif;
+      color: darkgreen;
+      font-size: 50px;
+        font-weight: bold;
+}
+.horistonell-3.huvudmeny {
+    justify-content: center;
+}
+.botten img {
+    margin-right: 14px;
+}
+h1, h2 {
+    color: darkgreen;
+}
+
+.stad-bild {
+    width: 20vw;
+    height: 20vw;
+}
+.margin-sides p {
+    max-width: 750px;
+}
