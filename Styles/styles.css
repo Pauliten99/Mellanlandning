@@ -123,3 +123,88 @@ h1, h2 {
 .margin-right {
     margin-right: 7vw;
 }
+
+
+/* Anpassning för mobiltelefoner */
+@media screen and (max-width: 600px) {
+
+    /* Sidhuvudet */
+    .huvudmeny {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Delarna i sidhuvudet får hela skärmens bredd */
+    .horistonell-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Menylänkarna placeras på en egen rad */
+    .horistonell-3.huvudmeny {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    /* Hemsidans namn blir mindre */
+    .Mellanlandning {
+        font-size: 9vw;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    /* Avstånd mellan menylänkarna */
+    a {
+        margin: 5px 8px;
+    }
+
+    /* Startsidan: bild och text under varandra */
+    .vänster {
+        width: 90%;
+        height: auto;
+        text-align: center;
+    }
+
+    .vänster img {
+        width: 70%;
+        height: auto;
+    }
+
+    .höger {
+        width: 90%;
+        align-items: center;
+    }
+
+    .p-margin-sides {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* De små bilderna på startsidan */
+    .liten-bild-startsida {
+        width: 26vw;
+        height: 26vw;
+    }
+
+    /* Stadssidorna */
+    .margin-sides {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .stad-bild {
+        width: 27vw;
+        height: 27vw;
+    }
+
+    .margin-sides p {
+        max-width: 100%;
+    }
+
+    /* Lite mindre avstånd ovanför innehållet */
+    .equal-margin-top-bottom {
+        margin-top: 8vh;
+    }
+}
