@@ -227,17 +227,21 @@ h1, h2 {
 .equal-margin-top-bottom {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: nowrap;
-    gap: 8px;
+    width: 100%;
+    gap: 0;
 }
 
-/* Alla tre bilder får samma storlek */
-.equal-margin-top-bottom .stad-bild {
-    width: 27vw;
-    height: 27vw;
-    margin-right: 0;
+/* Tre lika stora bilder med jämnt mellanrum */
+.equal-margin-top-bottom img {
+    width: 28%;
+    height: auto;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
+    margin: 0;
+    flex: 0 0 28%;
 }
     
-}
+    
+
