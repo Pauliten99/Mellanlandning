@@ -186,8 +186,24 @@ h1, h2 {
     .liten-bild-startsida {
         width: 26vw;
         height: 26vw;
+        
     }
+    /* Placerar de tre bilderna bredvid varandra */
+    .botten {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+}
 
+/* Ger bilderna samma storlek */
+.botten img {
+    width: 26vw;
+    height: 26vw;
+    object-fit: cover;
+    margin-right: 0;
+}
     /* Stadssidorna */
     .margin-sides {
         margin-left: 5vw;
